@@ -1,0 +1,10 @@
+name: d-one-sample-static
+region: nyc
+static_sites:
+  - name: website
+    environment_slug: html
+    github:
+      repo: danfinn5/do_hw_site
+      branch: main
+      deploy_on_push: true
+    source_dir: /
